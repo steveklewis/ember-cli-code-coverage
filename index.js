@@ -69,7 +69,7 @@ module.exports = {
 
       } else {
         this.project.ui.writeWarnLine(
-          'ember-cli-code-coverage: You are using an unsupported ember-cli-babel version, ' + dep.version +
+          'ember-cli-code-coverage: You are using an unsupported ember-cli-babel version, ' + checker.version +
           ' instrumentation will not be available.'
         );
       }
